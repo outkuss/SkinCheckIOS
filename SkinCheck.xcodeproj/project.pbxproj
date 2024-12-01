@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EA9CDF0D2CFD1CDD00A1B0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA9CDEF42CFD1CDC00A1B0F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9CDEFB2CFD1CDC00A1B0F3;
+			remoteInfo = SkinCheck;
+		};
+		EA9CDF172CFD1CDD00A1B0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA9CDEF42CFD1CDC00A1B0F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9CDEFB2CFD1CDC00A1B0F3;
+			remoteInfo = SkinCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA9CDEFC2CFD1CDC00A1B0F3 /* SkinCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9CDF0C2CFD1CDD00A1B0F3 /* SkinCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9CDF162CFD1CDD00A1B0F3 /* SkinCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EA9CDEFE2CFD1CDC00A1B0F3 /* SkinCheck */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SkinCheck;
+			sourceTree = "<group>";
+		};
+		EA9CDF0F2CFD1CDD00A1B0F3 /* SkinCheckTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SkinCheckTests;
+			sourceTree = "<group>";
+		};
+		EA9CDF192CFD1CDD00A1B0F3 /* SkinCheckUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SkinCheckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA9CDEF92CFD1CDC00A1B0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9CDF092CFD1CDD00A1B0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9CDF132CFD1CDD00A1B0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA9CDEF32CFD1CDC00A1B0F3 = {
+			isa = PBXGroup;
+			children = (
+				EA9CDEFE2CFD1CDC00A1B0F3 /* SkinCheck */,
+				EA9CDF0F2CFD1CDD00A1B0F3 /* SkinCheckTests */,
+				EA9CDF192CFD1CDD00A1B0F3 /* SkinCheckUITests */,
+				EA9CDEFD2CFD1CDC00A1B0F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA9CDEFD2CFD1CDC00A1B0F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9CDEFC2CFD1CDC00A1B0F3 /* SkinCheck.app */,
+				EA9CDF0C2CFD1CDD00A1B0F3 /* SkinCheckTests.xctest */,
+				EA9CDF162CFD1CDD00A1B0F3 /* SkinCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA9CDEFB2CFD1CDC00A1B0F3 /* SkinCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9CDF202CFD1CDD00A1B0F3 /* Build configuration list for PBXNativeTarget "SkinCheck" */;
+			buildPhases = (
+				EA9CDEF82CFD1CDC00A1B0F3 /* Sources */,
+				EA9CDEF92CFD1CDC00A1B0F3 /* Frameworks */,
+				EA9CDEFA2CFD1CDC00A1B0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EA9CDEFE2CFD1CDC00A1B0F3 /* SkinCheck */,
+			);
+			name = SkinCheck;
+			packageProductDependencies = (
+			);
+			productName = SkinCheck;
+			productReference = EA9CDEFC2CFD1CDC00A1B0F3 /* SkinCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA9CDF0B2CFD1CDD00A1B0F3 /* SkinCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9CDF232CFD1CDD00A1B0F3 /* Build configuration list for PBXNativeTarget "SkinCheckTests" */;
+			buildPhases = (
+				EA9CDF082CFD1CDD00A1B0F3 /* Sources */,
+				EA9CDF092CFD1CDD00A1B0F3 /* Frameworks */,
+				EA9CDF0A2CFD1CDD00A1B0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9CDF0E2CFD1CDD00A1B0F3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EA9CDF0F2CFD1CDD00A1B0F3 /* SkinCheckTests */,
+			);
+			name = SkinCheckTests;
+			packageProductDependencies = (
+			);
+			productName = SkinCheckTests;
+			productReference = EA9CDF0C2CFD1CDD00A1B0F3 /* SkinCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA9CDF152CFD1CDD00A1B0F3 /* SkinCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9CDF262CFD1CDD00A1B0F3 /* Build configuration list for PBXNativeTarget "SkinCheckUITests" */;
+			buildPhases = (
+				EA9CDF122CFD1CDD00A1B0F3 /* Sources */,
+				EA9CDF132CFD1CDD00A1B0F3 /* Frameworks */,
+				EA9CDF142CFD1CDD00A1B0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9CDF182CFD1CDD00A1B0F3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EA9CDF192CFD1CDD00A1B0F3 /* SkinCheckUITests */,
+			);
+			name = SkinCheckUITests;
+			packageProductDependencies = (
+			);
+			productName = SkinCheckUITests;
+			productReference = EA9CDF162CFD1CDD00A1B0F3 /* SkinCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA9CDEF42CFD1CDC00A1B0F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					EA9CDEFB2CFD1CDC00A1B0F3 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					EA9CDF0B2CFD1CDD00A1B0F3 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = EA9CDEFB2CFD1CDC00A1B0F3;
+					};
+					EA9CDF152CFD1CDD00A1B0F3 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = EA9CDEFB2CFD1CDC00A1B0F3;
+					};
+				};
+			};
+			buildConfigurationList = EA9CDEF72CFD1CDC00A1B0F3 /* Build configuration list for PBXProject "SkinCheck" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA9CDEF32CFD1CDC00A1B0F3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EA9CDEFD2CFD1CDC00A1B0F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA9CDEFB2CFD1CDC00A1B0F3 /* SkinCheck */,
+				EA9CDF0B2CFD1CDD00A1B0F3 /* SkinCheckTests */,
+				EA9CDF152CFD1CDD00A1B0F3 /* SkinCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA9CDEFA2CFD1CDC00A1B0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9CDF0A2CFD1CDD00A1B0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9CDF142CFD1CDD00A1B0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9CDEF82CFD1CDC00A1B0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9CDF082CFD1CDD00A1B0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9CDF122CFD1CDD00A1B0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA9CDF0E2CFD1CDD00A1B0F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA9CDEFB2CFD1CDC00A1B0F3 /* SkinCheck */;
+			targetProxy = EA9CDF0D2CFD1CDD00A1B0F3 /* PBXContainerItemProxy */;
+		};
+		EA9CDF182CFD1CDD00A1B0F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA9CDEFB2CFD1CDC00A1B0F3 /* SkinCheck */;
+			targetProxy = EA9CDF172CFD1CDD00A1B0F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA9CDF1E2CFD1CDD00A1B0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA9CDF1F2CFD1CDD00A1B0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA9CDF212CFD1CDD00A1B0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkinCheck/Preview Content\"";
+				DEVELOPMENT_TEAM = SY35M64PHB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Melisa-O-zgu-r.SkinCheck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA9CDF222CFD1CDD00A1B0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkinCheck/Preview Content\"";
+				DEVELOPMENT_TEAM = SY35M64PHB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Melisa-O-zgu-r.SkinCheck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA9CDF242CFD1CDD00A1B0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SY35M64PHB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Melisa-O-zgu-r.SkinCheckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkinCheck.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkinCheck";
+			};
+			name = Debug;
+		};
+		EA9CDF252CFD1CDD00A1B0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SY35M64PHB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Melisa-O-zgu-r.SkinCheckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkinCheck.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkinCheck";
+			};
+			name = Release;
+		};
+		EA9CDF272CFD1CDD00A1B0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SY35M64PHB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Melisa-O-zgu-r.SkinCheckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkinCheck;
+			};
+			name = Debug;
+		};
+		EA9CDF282CFD1CDD00A1B0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SY35M64PHB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Melisa-O-zgu-r.SkinCheckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkinCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA9CDEF72CFD1CDC00A1B0F3 /* Build configuration list for PBXProject "SkinCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9CDF1E2CFD1CDD00A1B0F3 /* Debug */,
+				EA9CDF1F2CFD1CDD00A1B0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9CDF202CFD1CDD00A1B0F3 /* Build configuration list for PBXNativeTarget "SkinCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9CDF212CFD1CDD00A1B0F3 /* Debug */,
+				EA9CDF222CFD1CDD00A1B0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9CDF232CFD1CDD00A1B0F3 /* Build configuration list for PBXNativeTarget "SkinCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9CDF242CFD1CDD00A1B0F3 /* Debug */,
+				EA9CDF252CFD1CDD00A1B0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9CDF262CFD1CDD00A1B0F3 /* Build configuration list for PBXNativeTarget "SkinCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9CDF272CFD1CDD00A1B0F3 /* Debug */,
+				EA9CDF282CFD1CDD00A1B0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA9CDEF42CFD1CDC00A1B0F3 /* Project object */;
+}
