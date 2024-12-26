@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Oil-controlling toners (witch hazel).png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Oil-controlling toners (witch hazel) 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Oil-controlling toners (witch hazel) 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

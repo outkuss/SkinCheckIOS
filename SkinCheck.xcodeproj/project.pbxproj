@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EA5A04A52D12656B0085EF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5A04A42D12656B0085EF27 /* Assets.xcassets */; };
+		EA9CDF2D2CFD1EAA00A1B0F3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EA9CDF2C2CFD1EAA00A1B0F3 /* FirebaseAuth */; };
+		EA9CDF2F2CFD1EAA00A1B0F3 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = EA9CDF2E2CFD1EAA00A1B0F3 /* FirebaseCore */; };
+		EA9CDF322CFD1EC400A1B0F3 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = EA9CDF312CFD1EC400A1B0F3 /* GoogleSignIn */; };
+		EA9CDF342CFD1EC400A1B0F3 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EA9CDF332CFD1EC400A1B0F3 /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EA9CDF0D2CFD1CDD00A1B0F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +32,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA5A03A82D105BF30085EF27 /* CoreAudioTypes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioTypes.framework; path = System/Library/Frameworks/CoreAudioTypes.framework; sourceTree = SDKROOT; };
+		EA5A03AA2D105D1F0085EF27 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EA5A04A42D12656B0085EF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA9CDEFC2CFD1CDC00A1B0F3 /* SkinCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9CDF0C2CFD1CDD00A1B0F3 /* SkinCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9CDF162CFD1CDD00A1B0F3 /* SkinCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EA9CDF382CFD22A700A1B0F3 /* Exceptions for "SkinCheck" folder in "SkinCheck" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EA9CDEFB2CFD1CDC00A1B0F3 /* SkinCheck */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		EA9CDEFE2CFD1CDC00A1B0F3 /* SkinCheck */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EA9CDF382CFD22A700A1B0F3 /* Exceptions for "SkinCheck" folder in "SkinCheck" target */,
+			);
 			path = SkinCheck;
 			sourceTree = "<group>";
 		};
@@ -52,6 +76,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9CDF2F2CFD1EAA00A1B0F3 /* FirebaseCore in Frameworks */,
+				EA9CDF2D2CFD1EAA00A1B0F3 /* FirebaseAuth in Frameworks */,
+				EA9CDF322CFD1EC400A1B0F3 /* GoogleSignIn in Frameworks */,
+				EA9CDF342CFD1EC400A1B0F3 /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +100,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA5A03A72D105BE50085EF27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A03AA2D105D1F0085EF27 /* SystemConfiguration.framework */,
+				EA5A03A82D105BF30085EF27 /* CoreAudioTypes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EA9CDEF32CFD1CDC00A1B0F3 = {
 			isa = PBXGroup;
 			children = (
+				EA5A04A42D12656B0085EF27 /* Assets.xcassets */,
 				EA9CDEFE2CFD1CDC00A1B0F3 /* SkinCheck */,
 				EA9CDF0F2CFD1CDD00A1B0F3 /* SkinCheckTests */,
 				EA9CDF192CFD1CDD00A1B0F3 /* SkinCheckUITests */,
+				EA5A03A72D105BE50085EF27 /* Frameworks */,
 				EA9CDEFD2CFD1CDC00A1B0F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +151,10 @@
 			);
 			name = SkinCheck;
 			packageProductDependencies = (
+				EA9CDF2C2CFD1EAA00A1B0F3 /* FirebaseAuth */,
+				EA9CDF2E2CFD1EAA00A1B0F3 /* FirebaseCore */,
+				EA9CDF312CFD1EC400A1B0F3 /* GoogleSignIn */,
+				EA9CDF332CFD1EC400A1B0F3 /* GoogleSignInSwift */,
 			);
 			productName = SkinCheck;
 			productReference = EA9CDEFC2CFD1CDC00A1B0F3 /* SkinCheck.app */;
@@ -171,7 +214,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
-				LastUpgradeCheck = 1610;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					EA9CDEFB2CFD1CDC00A1B0F3 = {
 						CreatedOnToolsVersion = 16.1;
@@ -195,6 +238,10 @@
 			);
 			mainGroup = EA9CDEF32CFD1CDC00A1B0F3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EA9CDF2B2CFD1EAA00A1B0F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				EA9CDF302CFD1EC400A1B0F3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EA9CDEFD2CFD1CDC00A1B0F3 /* Products */;
 			projectDirPath = "";
@@ -212,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5A04A52D12656B0085EF27 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,19 +444,23 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SkinCheck/Preview Content\"";
-				DEVELOPMENT_TEAM = SY35M64PHB;
+				DEVELOPMENT_TEAM = 9D58PR9244;
 				ENABLE_PREVIEWS = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/System/Library/Frameworks\n";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkinCheck/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "Melisa-O-zgu-r.SkinCheck";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -425,14 +477,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SkinCheck/Preview Content\"";
-				DEVELOPMENT_TEAM = SY35M64PHB;
+				DEVELOPMENT_TEAM = 9D58PR9244;
 				ENABLE_PREVIEWS = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/System/Library/Frameworks\n";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkinCheck/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +509,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SY35M64PHB;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Melisa-O-zgu-r.SkinCheckTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -473,7 +528,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SY35M64PHB;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Melisa-O-zgu-r.SkinCheckTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -491,6 +546,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SY35M64PHB;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Melisa-O-zgu-r.SkinCheckUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,6 +564,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SY35M64PHB;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Melisa-O-zgu-r.SkinCheckUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -558,6 +615,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA9CDF2B2CFD1EAA00A1B0F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+		EA9CDF302CFD1EC400A1B0F3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA9CDF2C2CFD1EAA00A1B0F3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA9CDF2B2CFD1EAA00A1B0F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		EA9CDF2E2CFD1EAA00A1B0F3 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA9CDF2B2CFD1EAA00A1B0F3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		EA9CDF312CFD1EC400A1B0F3 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA9CDF302CFD1EC400A1B0F3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		EA9CDF332CFD1EC400A1B0F3 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA9CDF302CFD1EC400A1B0F3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EA9CDEF42CFD1CDC00A1B0F3 /* Project object */;
 }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Access to the photo gallery is required to save skin analysis results.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Permission to access the camera is required to take photos.</string>
+	<key>Privacy - Photo Library Usage Description
+Privacy - Photo Library Usage Description
+</key>
+	<string>Access to your photographs is required to perform skin analysis.</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.3251320575-eloi2gs321o7obdc7ih9an4nrdtm226l</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
